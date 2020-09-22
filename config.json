@@ -1,0 +1,20 @@
+{
+  "database": {
+    "isLocal": "True",
+    "local_db_uri": "mysql+pymysql://root:@localhost/inotes",
+    "prod_db_uri": ""
+  },
+  "websiteData":
+  {
+    "title": "iNotes",
+    "orgName": "The Avengers Team"
+  },
+  "social-links":
+  {
+    "facebook": "",
+    "instagram": "",
+    "github": "https://github.com/VipulRathod007",
+    "linkedin": "",
+    "mailAddr": "vipuldrathod1458@gmail.com",
+  }
+}

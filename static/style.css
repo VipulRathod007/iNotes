@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none!important;
+}
+nav{
+    margin-bottom: 0;
+}
+.btn-style
+{
+    background-color: skyblue;
+    font-weight: 500;
+}
+.btn-style:hover{
+    background-color: white;
+    border: 2pt solid skyblue;
+}
+/* ---------------------------------Footer--------------------------------- */
+.social-icons{
+    margin: 5pt 10pt;
+}
+.social-icons:hover{
+    color: skyblue;
+}
+
+/* ---------------------------------Home--------------------------------- */
+.main{
+    margin: 2.5% 7.5%;
+}
+.details{
+    margin: 10pt;
+    line-height: 135%;
+}
+.instructions
+{
+    margin: 2.5% .75%;
+    width: 60%;
+}
+.details p:hover, .list li:hover, .text-hover:hover{
+    color: skyblue;
+}
+
+/* ---------------------------------Contact--------------------------------- */
+.contact{
+    margin: 2% 10%;
+}
+
+/* ---------------------------------Service--------------------------------- */
+.section{
+    margin: 2.5% 12.5%;
+    padding: 5pt 15pt;
+}
+.section-head p:hover{
+    color: skyblue;
+}
+.section-body label:hover{
+    color: skyblue;
+}
+#myTable th:hover{
+    color: white;
+}

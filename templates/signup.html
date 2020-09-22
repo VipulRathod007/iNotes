@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div class="main" style="padding: 1% 12.5%; margin-bottom: 3.825%;">
+    <div class="details" style="padding-bottom: 1.5%;">
+        <h1><p>SignUp Page</p></h1>
+        <hr>
+    </div>
+    <div class="form-style" style="font-size: large; line-height: 150%;">
+        <form style="font-size: large;" method="POST" action="/signup">
+            <div class="form-group details">
+              <label for="exampleInputEmail1"><p>Email address</p></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter Your Email Address Here" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            {% if found %}
+            <p>User Email Address Already in Use</p>
+            {% endif %}
+            <p></p>
+            <div class="form-group details">
+              <label for="exampleInputPassword1"><p>Password</p></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Choose A Strong Password" required>
+            </div>
+            <button type="submit" class="btn btn-style" style="margin-left: 10pt; margin-bottom: 10pt;">Submit</button>
+          </form>
+    </div>
+    <!-- <a href="/" class="btn btn-style">Launch</a> -->
+</div>
+{% endblock %}
